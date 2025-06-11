@@ -59,7 +59,7 @@ It's mobile-first, culturally grounded, and built for people who already know ho
 
 - **Language-first**: Swahili, Sheng, or local dialects
 - **Metaphors**:
-  - Vault = `sufuria`
+  - Vault = `ghala`
   - Rep = `msimamo`
   - Vote = `sauti`
 - **Rituals**: Weekly *shirikisho* voting, monthly offline meetups
@@ -69,7 +69,7 @@ It's mobile-first, culturally grounded, and built for people who already know ho
 
 ## 🧪 Pilot Phase
 
-| Location       | Kariobangi, Nairobi                      |
+| Location       | Buruburu, Nairobi                      |
 |----------------|-------------------------------------------|
 | Group Size     | 25–50 trusted youth and women            |
 | Interfaces     | WhatsApp bot, USSD, or light PWA         |
