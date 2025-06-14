@@ -1,108 +1,107 @@
-# 🌍 Mtaa DAO
+# MtaaDAO — The People's Treasury
 
-> *"Build with the mtaa, not for it."*  
-> A decentralized, trust-based protocol for community savings, micro-treasuries, and collective action in African neighborhoods.
+> "It’s the kind of project our grandkids will fork."
 
----
-
-## ✨ Overview
-
-**Mtaa DAO** is a protocol for organizing **neighborhood-based micro-communities** — from Kariobangi to Kibra to Kisumu. It allows trusted groups to:
-
-- Pool and manage **shared funds** (school fees, hustle capital, emergencies)
-- Vote on **how and when to use** the funds
-- Track and grow **reputation** through participation and service
-- Onboard new members through local **trust networks**
-
-It's mobile-first, culturally grounded, and built for people who already know how to hustle — just not always with the tools they deserve.
+MtaaDAO is a transparent, community-owned digital treasury built for neighborhoods, by neighborhoods. It blends the power of traditional African chamas with blockchain-backed governance — allowing people to save together, vote together, and grow together.
 
 ---
 
-## 🧱 Core Modules
+ 🌍 Why MtaaDAO?
 
-| Module            | Description                                           |
-|------------------|-------------------------------------------------------|
-| `VaultFund`       | Smart contract to manage deposits + vault balances   |
-| `ProposalEngine`  | Handle requests, voting, and approvals                |
-| `ReputationScore` | Reward participation and community contributions     |
-| `DisbursementGuard` | Ensure quorum + trust checks before release        |
-| `AccessLayer`     | USSD, WhatsApp, or PWA interface for all actions     |
+In many Kenyan communities ("mtaa"), people face:
+- Limited access to reliable financial systems
+- Mismanaged or opaque savings groups
+- No way to vote on how shared money is spent
 
----
-
-## 📲 User Flow (MVP)
-
-1. **Join DAO** via WhatsApp or USSD  
-2. **Contribute** to a shared vault (e.g., Ksh 100/week)  
-3. **Earn reputation** by voting, referring, resolving disputes  
-4. **Request funds** for emergencies or micro-projects  
-5. **Vote** on proposals as a community  
-6. **Funds released** if trust & quorum criteria met
+MtaaDAO solves this** with:
+- 🔐 A shared digital treasury
+- 🗳️ Transparent, phone-based voting
+- 💸 Easy contributions via M-Pesa or crypto
+- 🌱 Real-world utility — from school fees to community projects
 
 ---
 
-## 🔐 Smart Contract Stack
+🧠 Core Principles
 
-- Network: [Celo](https://celo.org) (mobile-first) or Near / Polygon
-- Token System:
-  - `mtaaREP`: Voting weight + influence
-  - `mtaaVOTE`: Monthly voting right
-  - `mtaaCRED`: Non-tradeable “merit receipts”
-- Logic:
-  - Weighted voting (elders + active youth)
-  - Multi-signature fund releases
-  - Time-locked contributions and rewards
+| Pillar            | Description                            |
+|------------------|----------------------------------------|
+| Community First  | One person, one vote — verified by phone |
+| Transparent Money| Treasury visible to all, programmable   |
+| Mobile-First     | Built for phones, not browsers          |
+| Forkable         | Any neighborhood can launch their own   |
 
 ---
 
-## 🎭 Cultural Layer
+🔧 How It Works
 
-- **Language-first**: Swahili, Sheng, or local dialects
-- **Metaphors**:
-  - Vault = `ghala`
-  - Rep = `msimamo`
-  - Vote = `sauti`
-- **Rituals**: Weekly *shirikisho* voting, monthly offline meetups
-- **Dispute resolution** by elders and rep history, not just code
+1. **Members contribute** via M-Pesa (KotaniPay) or MiniPay wallets
+2. **Funds enter the MtaaDAO treasury smart contract** (holds cUSD)
+3. **Anyone can propose** a spending idea
+4. **Community votes** (1 person = 1 vote)
+5. **If approved, funds are released** to the recipient wallet
 
----
-
-## 🧪 Pilot Phase
-
-| Location       | Buruburu, Nairobi                      |
-|----------------|-------------------------------------------|
-| Group Size     | 25–50 trusted youth and women            |
-| Interfaces     | WhatsApp bot, USSD, or light PWA         |
-| Vault Funding  | Starting with Ksh 20,000 pooled capital  |
-| Identity       | Phone # + trusted referrals              |
-| Timeline       | 3-month live test (2025 Q3)              |
+Optional: Daily UBI using GoodDollar integration
 
 ---
 
-## 🚧 Roadmap
+🏗️ Tech Stack
 
-| Phase | Features                             |
-|-------|--------------------------------------|
-| 0.1   | Manual voting, contribution logging  |
-| 0.2   | Smart contract vaults, reputation    |
-| 0.3   | Decentralized identity + guardians   |
-| 1.0   | Fully open-source toolkit to fork    |
+| Layer       | Tech Used               |
+|-------------|--------------------------|
+| Blockchain  | Celo                     |
+| Wallets     | MiniPay, Valora         |
+| Fiat Bridge | KotaniPay (M-Pesa)      |
+| Smart Contracts | Solidity             |
+| UI          | React / Flutter         |
+| Hosting     | IPFS or Firebase        |
 
 ---
 
-## 🤝 Contribute
+📂 Project Structure
 
-> You don’t need to be a dev — just be someone who *knows how your community works.*
+```
+/mtaadao
+├── contracts/        # Solidity smart contracts
+├── frontend/         # Lightweight mobile/web UI
+├── backend/          # Optional: proposal indexing, auth
+├── docs/             # Full documentation
+├── scripts/          # Deployment helpers
+├── .env.example      # Config template
+└── README.md         # You are here 💡
+```
 
-### Roles Needed
-- Solidity / Rust smart contract devs
-- Backend/Frontend mobile devs
-- Designers (local-first UX, Swahili/visual)
-- Community organizers (mtaa elders, youth reps)
-- Financial anthropologists
+---
 
-### Start Here
+ 📌 Roadmap
 
-```bash
-git clone https://github.com/your-org/mtaa-dao.git
-cd mtaa-dao
+- [x] Project blueprint
+- [x] DAO design + proposal lifecycle
+- [ ] Smart contracts (Treasury, Voting)
+- [ ] React-based mobile dashboard
+- [ ] M-Pesa <> cUSD on-ramp integration
+- [ ] Pilot launch in 1 community
+- [ ] DAO templates for other mtaa
+
+---
+
+🙌 Get Involved
+
+We’re building the infrastructure for a new kind of neighborhood economy. Join us.
+
+- 🛠️ Devs: Contribute contracts, dashboards, or integrations
+- 🧠 Thinkers: Help shape governance, policy, and education
+- 💸 Donors: Support pilot communities
+
+
+Twitter: [@MtaaDAO](https://twitter.com/mtaadao)  
+Telegram: [t.me/mtaadao](https://t.me/mtaadao)  
+GitHub: Coming soon
+
+---
+
+🫱🏾‍🫲🏽 From Mtaa, For Mtaa
+
+This isn’t just Web3.
+This is **Watu3**.
+
+Let’s build it. 🚀
